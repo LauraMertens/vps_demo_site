@@ -1,0 +1,129 @@
+.box{
+	background-color: #FFF;
+	width: 960px;
+	padding: 20px 20px 20px 20px;
+	border: 0;
+	margin: 25px 300px 50px 300px;
+	border-radius: 10px;
+}
+body{
+	font-family: verdana, arial, sans-serif;
+	/*background-color: #888;*/
+}
+p{
+	width: 500px;
+}
+img{
+	float: right;
+	padding: 0px 20px 0px 20px;
+}
+/*--------------------------Menu------------------------*/
+a{
+	text-decoration: none;
+	font-weight: bold;
+}
+header nav ul {
+	background-color: #222;	
+	/*width: 980px;*/
+	padding: 6px 0px 6px 0px;
+}
+header nav li{	
+	display: inline;
+	margin: 40px;
+
+}
+header nav a:link{
+	color: #FFF;
+}
+header nav a:visited{
+	color: #FFF;
+}
+header nav a:hover{
+	color: #89d942;
+}
+header nav a:active{
+	color: #89d942;
+}
+header nav a.b{
+	background-color: #89d942;
+	color: #111;
+	padding: 10px;
+}
+/*--------------------------lijst---------------------*/
+ul.Lijst{
+	list-style-image: url(images/check.gif);
+	padding: 20px 80px 20px 80px;
+	text-align: left;
+	float: left;
+	clear: none;
+}
+
+
+/*--------------------------table-----------------------*/
+table{
+	border-collapse: collapse;
+	margin: 0px 25px 0px 40px;
+}
+table th:first-child{
+	border-top-left-radius: 10px;
+}
+table th:last-child{
+	border-top-right-radius: 10px;
+}
+th{
+	background-color: #222;
+	color: #89d942;
+	border-bottom: 3px #111;
+	text-align: center;
+}
+td{
+	
+	border-right: 1px solid black;
+}
+table tr td:last-child{
+	border: none;
+}
+th{
+	border-right: 1px solid #888;
+	border-bottom: 3px solid #111;
+	text-transform: uppercase;
+	text-shadow: 3px 2px 0px #111;
+}
+table tr th:last-child{
+	border-right: none;
+}
+th, td{
+	padding: 10px 20px 10px 10px;
+}
+.DarkColor{
+	background-color: #888;
+}
+.lightColor{
+	background-color: #999;
+}
+button{
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 5px 15px;
+	border-radius: 7px;
+	background-color:#89d942;
+	border-style: outset;
+}
+button:hover{
+	border-style: inset;
+}
+
+
+table tr:last-child td{
+	text-align: center;
+}
+/*--------------------------------------------*/
+footer{
+	/*text-align: center;*/
+	padding: 0px 100px 0px 400px;
+}
+
+
+
+
+
